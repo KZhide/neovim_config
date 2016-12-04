@@ -35,3 +35,6 @@ hook_add = '''
   inoremap <expr><tab> pumvisible() ? "\<C-n>"
   \ : (neosnippet#expandable() <Bar><Bar> neosnippet#jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>")
 '''
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
