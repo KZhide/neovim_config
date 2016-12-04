@@ -2,10 +2,6 @@
 repo = 'Shougo/neomru.vim'
 on_path = '.*'
 
-[[plugnis]]
-repo = 'jiangmiao/auto-pair'
-on_i = 1
-
 [[plugins]]
 repo = 'Shougo/neoyank.vim'
 on_path = '.*'
