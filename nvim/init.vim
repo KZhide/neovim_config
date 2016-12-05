@@ -10,6 +10,11 @@ if &compatible
   set nocompatible
 endif
 
+" reset augroup
+augroup MyAutoCmd
+  autocmd!
+augroup END
+
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 let g:config_home = $XDG_CONFIG_HOME
@@ -35,3 +40,4 @@ if dein#check_install()
   call dein#install()
 endif
 
+colorscheme zenburn
