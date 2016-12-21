@@ -1,3 +1,4 @@
+" Editor Settings
 set number
 set expandtab
 set shiftwidth=2
@@ -5,6 +6,7 @@ set tabstop=2
 set autoindent
 set smartindent
 filetype plugin indent on
+set colorcolumn=80
 
 if &compatible
   set nocompatible
