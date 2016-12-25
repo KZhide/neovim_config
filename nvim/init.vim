@@ -1,3 +1,4 @@
+" Editor Settings
 set number
 set expandtab
 set shiftwidth=2
@@ -5,10 +6,16 @@ set tabstop=2
 set autoindent
 set smartindent
 filetype plugin indent on
+set colorcolumn=80
 
 if &compatible
   set nocompatible
 endif
+
+" reset augroup
+augroup MyAutoCmd
+  autocmd!
+augroup END
 
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
@@ -35,3 +42,4 @@ if dein#check_install()
   call dein#install()
 endif
 
+colorscheme zenburn
