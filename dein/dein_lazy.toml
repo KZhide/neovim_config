@@ -39,6 +39,19 @@ repo = 'itchyny/vim-haskell-indent'
 on_ft = 'haskell'
 on_i = 1
 
+[[plugins]]
+repo = 'Twinside/vim-hoogle'
+on_ft = 'haskell'
+on_i = 1
+
+[[plugins]]
+repo = 'eagletmt/ghcmod-vim'
+on_ft = 'haskell'
+
+[[plugins]]
+repo = 'ujihisa/neco-ghc'
+on_ft = 'haskell'
+
 [[plugins]] # Codic
 repo = 'koron/codic-vim'
 on_cmd = 'Codic'
@@ -61,3 +74,8 @@ hook_source = '''
 [[plugins]] # EditorConfig
 repo = 'editorconfig/editorconfig-vim'
 on_path = '.*'
+
+[[plugins]]
+repo = 'scrooloose/syntastic'
+on_i = 1
+

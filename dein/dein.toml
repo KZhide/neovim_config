@@ -72,3 +72,5 @@ repo = 'jnurmine/Zenburn'
 [[plugins]] # Japanese doc
 repo = 'vim-jp/vimdoc-ja'
 on_ft = 'help'
+
+
