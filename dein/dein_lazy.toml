@@ -40,6 +40,10 @@ on_ft = 'haskell'
 on_i = 1
 
 [[plugins]]
+repo = 'enomsg/vim-haskellConcealPlus'
+on_ft = 'haskell'
+
+[[plugins]]
 repo = 'Twinside/vim-hoogle'
 on_ft = 'haskell'
 on_i = 1
